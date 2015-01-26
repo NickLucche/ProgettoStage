@@ -33,8 +33,12 @@ public class main {
 		        out.write("\r\n");
 		        out.write(stringa);
 		        
-		        while(bfInput.readLine().isEmpty() == false)
-		        	System.out.println(bfInput.readLine());
+		        String snull = bfInput.readLine();
+		        while(snull.length() > 0){
+		        	System.out.println(snull);
+		        	snull = bfInput.readLine();
+		        }
+		        
 		        out.close();
 		        sock.close();
 		        bfInput.close();
@@ -57,8 +61,14 @@ public class main {
 				+ "width:300px;"
 				+ "height:300px;"
 				+ "color : red;"
-				+ "}</style></head>"
-				+ "<body><button id ='btn' class = 'btn' >BTN</button></body>"
+				+ "}"
+				+ "txt {"
+				+ "color:red;"
+				+ "}"
+				+ "</style></head>"
+				+ "<body><button id ='btn' class = 'btn' >BTN</button><br><br>"
+				+ "<font size = 30 id ='txt' class = 'txt'>Welcome!</font>"
+				+ "</body>"
 				+ "</html>";
 		
 		return s;
