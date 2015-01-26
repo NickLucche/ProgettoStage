@@ -33,10 +33,11 @@ public class main {
 		        out.write("\r\n");
 		        out.write(stringa);
 		        
-		        String snull = bfInput.readLine();
-		        while(snull.length() > 0){
+		        String snull;
+		        while((snull = bfInput.readLine())!=null){
 		        	System.out.println(snull);
-		        	snull = bfInput.readLine();
+		        	if(snull.isEmpty()==true)
+		        		break;
 		        }
 		        
 		        out.close();
