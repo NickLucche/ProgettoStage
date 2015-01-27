@@ -13,12 +13,13 @@ public class Server {
 		String toSend;
 		String received;
 		while(true){
-			toSend = bfKeyboard.readLine();
+			/*toSend = bfKeyboard.readLine();
 			out.write(toSend+"\n");
 			out.flush();
-			System.out.println("Server> "+toSend);
+			System.out.println("Server> "+toSend);*/
 			received = bfInput.readLine();
 			System.out.println("Client> "+received);
+		
 		}
 		
 		
