@@ -80,6 +80,8 @@ public class main {
 			int chunks = rows * cols;  
 			count = 0;
 
+			String position[]={"top","bottom"};
+
 			int ff=0;
 			for(;count<ListFile.size();count++){
 
@@ -109,7 +111,9 @@ public class main {
 							index++;
 							continue;
 						}		
-						ImageIO.write(imgs[index], "jpg", file2);  
+
+						ImageIO.write(imgs[index], type+"-"+position[x]+" jpg", file2);  
+
 						index++;
 						
 					}
