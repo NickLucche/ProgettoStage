@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.riccardo.progettoapporario" >
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -23,6 +23,10 @@
         <activity
             android:name=".OrarioCompletoActivity"
             android:label="@string/title_activity_orario_completo" >
+        </activity>
+        <activity
+            android:name=".Activity_OrarioGiorno"
+            android:label="@string/title_activity_activity__orario_giorno" >
         </activity>
     </application>
 
