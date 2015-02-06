@@ -1,0 +1,7 @@
+Orario;Lunedi;Martedi;Mercoledi;Giovedi;Venerdi;Sabato;
+08:00/09:00;Ed.Fisica \n Palestra;Informatica \n Y1;Inglese \n Z13;Matematica \n Y10;TPS \n Y4;TPS \n Y03;
+09:00/10:00;Ed.Fisica \n Palestra;Sistemi \n Y4;Italiano \n Z13;Informatica \n Y11;Matematica \n Y17;TPS \n Y03;
+10:00/11:00;GPOI \n Y11;Storia \n Y12;Sistemi \n Y4;Storia \n Y10;Italiano \n Y17;Inglese \n Y18;
+11:00/12:00;Inglese \n Y20;Matematica \n Y12;Sistemi \n Y4;GPOI \n Y03;Sistemi \n Y4;Religione \n Y18;
+12:00/12:50;Informatica \n Y03;Italiano \n Y12;Informatica \n Y4;na \n na;Informatica \n Y03;na \n na;
+12:50/13:40;Informatica \n Y03;Italiano \n Y12;GPOI \n Y03;na \n na;TPS \n Y1;na \n na;

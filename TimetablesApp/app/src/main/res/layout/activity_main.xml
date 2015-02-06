@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aggiorna"
+        android:id="@+id/button"
+        android:onClick="OnAggiornaOrario"
+        android:layout_centerHorizontal="true"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orario Completo"
+        android:id="@+id/button2"
+        android:onClick="OnOrarioCompleto"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/spinner" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="50px"
+        android:id="@+id/spinner"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:dropDownWidth="fill_parent"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="67dp"
+        android:verticalScrollbarPosition="right"
+        />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Variazione Orario"
+        android:id="@+id/button5"
+        android:onClick="onTimesChanges"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SelezionaGiorno"
+        android:id="@+id/button6"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:onClick="loadTimetables_per_Day"
+        />
+</RelativeLayout>

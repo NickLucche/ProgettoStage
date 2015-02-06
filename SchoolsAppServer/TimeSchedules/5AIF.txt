@@ -1,0 +1,7 @@
+Orario;Lunedi;Martedi;Mercoledi;Giovedi;Venerdi;Sabato;
+08:00;stocazzo-Palestra;Informatica-Y1;Inglese-Z13;Matematica-Y10;TPS-Y4;TPS-Y03;
+09:00;Ed.Fisica-Palestra;Sistemi-Y4;Italiano-Z13;Informatica-Y11;Matematica-Y17;TPS-Y03;
+10:00;GPOI-Y11;Storia-Y12;Sistemi-Y4;Storia-Y10;Italiano-Y17;Inglese-Y18;
+11:00;Inglese-Y20;Matematica-Y12;Sistemi-Y4;GPOI-Y03;Sistemi-Y4;Religione-Y18;
+12:00;Informatica-Y03;Italiano-Y12;Informatica-Y4;na-na;Informatica-Y03;na-na;
+12:50;Informatica-Y03;Italiano-Y12;GPOI-Y03;na-na;TPS-Y1;na-na;
